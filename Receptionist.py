@@ -1,4 +1,5 @@
 from Staff import Staff
+from Appointment import Appointment
 
 class Receptionist(Staff):
     def __init__(self, first_name, last_name, date_of_birth, phone_number, employee_id, hire_date, salary):
