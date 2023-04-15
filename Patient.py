@@ -1,4 +1,4 @@
-import Person
+from Person import Person
 
 class Patient(Person):
     def __init__(self, first_name, last_name, date_of_birth, phone_number, patient_id):
