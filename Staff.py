@@ -7,14 +7,18 @@ class Staff(Person):
         self.__hire_date = hire_date
         self.__salary = salary
 
+    # Get the employee id for this Staff instance.
     def get_employee_id(self):
         return self.__employee_id
 
+    # Get the hire date for this Staff instance.
     def get_hire_date(self):
         return self.__hire_date
 
+    # Get the salary for this Staff instance.
     def get_salary(self):
         return self.__salary
 
+    # Set the salary for this Staff instance.
     def set_salary(self, salary):
         self.__salary = salary

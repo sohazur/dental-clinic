@@ -5,5 +5,6 @@ class Patient(Person):
         super().__init__(first_name, last_name, date_of_birth, phone_number)
         self.__patient_id = patient_id
 
+    # Get the patient id for this Patient instance.
     def get_patient_id(self):
         return self.__patient_id

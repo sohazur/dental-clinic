@@ -6,8 +6,10 @@ class Dentist(Staff):
         self.__license_number = license_number
         self.__specialty = specialty
 
+    # Get the license number for this Dentist instance.
     def get_license_number(self):
         return self.__license_number
 
+    # Get the specialty for this Dentist instance.
     def get_specialty(self):
         return self.__specialty

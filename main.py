@@ -4,10 +4,8 @@ from DentalBranch import DentalBranch
 from DentalCompany import DentalCompany
 from Manager import Manager
 from Patient import Patient
-from Person import Person
 from Receipt import Receipt
 from Service import Service
-from Staff import Staff
 from Dentist import Dentist
 from Hygienist import Hygienist
 from Receptionist import Receptionist

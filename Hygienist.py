@@ -5,5 +5,6 @@ class Hygienist(Staff):
         super().__init__(first_name, last_name, date_of_birth, phone_number, employee_id, hire_date, salary)
         self.__license_number = license_number
 
+    # Get the license number for this Hygienist instance.
     def get_license_number(self):
         return self.__license_number
